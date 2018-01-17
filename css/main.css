@@ -1,0 +1,15 @@
+.container {
+    overflow-x: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+    background: url("../img/bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}

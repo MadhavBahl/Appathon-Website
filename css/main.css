@@ -1,4 +1,4 @@
-.container {
+.main-container {
     overflow-x: hidden;
     background-color: #ffffff;
     width: 100%;
@@ -11,5 +11,24 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 100vh;
+}
+
+.section2  {
+    background-color: #3c9eff;
+    color: white;
+}
+
+#abtApp {
+    margin-top: 0;
+}
+
+#about {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width:0px 0px 0px 3px;
+    border-style:solid solid solid solid;
+    border-color: #ffffff;
 }

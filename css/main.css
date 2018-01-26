@@ -185,3 +185,42 @@ body {
     display:none;
     overflow: hidden;
 }
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:80%;
+    padding-top: 32px;
+    padding-bottom: 12px;
+    margin-left: 10%;
+    display: block;
+    overflow: hidden;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:99999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    float:left;
+    width:100%;
+    background:#ffffff;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    width: 100%;
+    position: relative;
+    margin: 25px 0 25px 0;
+    max-width:100px;
+}

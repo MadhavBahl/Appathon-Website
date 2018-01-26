@@ -38,7 +38,7 @@
                     </div>
                     <br />
                     <div class="col-xs-12 text-center wow pulse" style="animation-iteration-count: infinite; animation-duration: 1.4s; animation-delay: 1s;">
-                        <a href="#section2"><button class="knowMore wow fadeInUp" >Know More</button></a>
+                        <a id="knowAbout" data-scroll href="#section2"><button class="knowMore wow fadeInUp" >Know More</button></a>
                     </div>
                 </div>
             </div>
@@ -242,6 +242,9 @@
                             <p class="answer">The entire idea need not be fully implemented. However, the submission should be functional so that it can be reviewed by the judges.</p>                         
                         </div>
                     </div>
+
+                    <br />
+                    <br />
                 </div>
             </div>
             <!-- Section 5 ends -->
@@ -277,5 +280,9 @@
         <script type="text/javascript" src="js/slider.js"></script>
         <script type="text/javascript" src="js/wow.js"></script>
         <script>new WOW().init();</script>
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
     </body>
 </html>

@@ -1,6 +1,7 @@
 body {
     width: 100% !important;
     overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
 }
 
 .main-container {
@@ -223,4 +224,13 @@ body {
     position: relative;
     margin: 25px 0 25px 0;
     max-width:100px;
+}
+
+.section5 {
+    background-color: #ffffff;
+    color: #3c9eff;
+}
+
+.question {
+    line-height: 70%;
 }

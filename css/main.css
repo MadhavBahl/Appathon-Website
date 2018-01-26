@@ -4,13 +4,11 @@ body {
 }
 
 .main-container {
-    
     background-color: #ffffff;
     width: 100%;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-
 }
 
 .section1 {
@@ -22,9 +20,53 @@ body {
     height: 100vh;
 }
 
+.knowMore {
+    margin-top: 7%;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 24px;
+    font-family: Arial;
+    color: #3C9EFF;
+    font-size: 20px;
+    background: #ffffff;
+    padding: 14px 32px 14px 32px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+}
+
+.knowMore:hover {
+    background: #d9dde0;
+    text-decoration: none;
+}
+
+#main-Appathon {
+    margin-top: 24vh;
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 500px) {
+    #main-Appathon { 
+        margin-top: 40vh;
+    }
+    .detApp {
+        font-size: 16px;
+    }
+    .knowMore {
+        margin-top: 15%;
+    }
+}
+
+.detApp {
+    color: #f0eaf0;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 110%;
+}
+
 .section2  {
     background-color: #3c9eff;
     color: white;
+    box-shadow: 0px 1px 10px -1px rgba(0,0,0,0.49);
 }
 
 #abtApp {
@@ -97,7 +139,12 @@ body {
     margin-top: 40px;
 }
 
+#aboutText {
+    text-align: left;
+}
+
 .section4 {
     color: #ffffff;
     background-color: #3c9eff;
+    box-shadow: 0px 1px 10px -1px rgba(0,0,0,0.49);
 }

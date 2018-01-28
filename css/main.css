@@ -367,4 +367,14 @@ body {
     font-size: 70px
 }
 
+#registerHere {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
 
+#registerHere:hover {
+    font-size: 54px;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out;
+}

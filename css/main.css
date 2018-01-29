@@ -108,6 +108,7 @@ body {
 
 #abtApp {
     margin-top: 0;
+    font-size: 54px;
 }
 
 #abtNum {
@@ -377,4 +378,10 @@ body {
     font-size: 54px;
     text-decoration: underline;
     transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 620px) {
+    #byADG {
+        font-size: 24px;
+    }
 }
